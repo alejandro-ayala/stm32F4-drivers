@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Ignore Eclipse related files
+#.project
+#.cproject
+.settings/
+
+# Ignore STM32CubeIDE related files
+STM32CubeIDE/
+*.launch
+*.launches
+*.metadata
+
